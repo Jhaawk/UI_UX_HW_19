@@ -2,16 +2,18 @@ body {
   font-family: "Roboto", helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #00b3f9;
+  background-color: #029633;
 }
 h1 {
   margin: 5px;
   margin-top: 50px;
   color: white;
+  font-size: em;
 }
 p {
   margin: 5px;
   color: white;
+  font-size: 2em;
 }
 .wrapper {
   display: flex;
@@ -35,11 +37,11 @@ p {
 }
 #enter {
   padding: 2%;
-  background-color: #ff9100;
+  background-color: #0c6965;
   color: white;
   border-radius: 3px;
   width: 10%;
-  border: none;
+  border: line-width: 3px;
 }
 .fas {
   font-size: 16px;
@@ -64,8 +66,8 @@ p {
   margin-top: 3px;
 }
 .done {
-  color: #38912f;
+  color: #ffffff;
   border: 2px solid #38912f;
-  background: #d3f4d0;
+  background: #084603;
   font-weight: 700;
 }
